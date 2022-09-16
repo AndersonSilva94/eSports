@@ -24,5 +24,14 @@
 - [x] Criação de componente de Loading
 - [x] Criação de componente de GameCard
 - [x] Criação da Home
+
+## Dia 3 - To be continued :rocket:
+- [x] Instalação de dependências (prisma, cors)
+- [x] Modelagem de banco de dados usando sqlite
+- [x] Construção de rota para listar games
+- [x] Construção de rota para listar anúncios por game
+- [x] Construção de rota para retornar o discord pelo ID do anúncio
+- [x] Construção de rota para criar um novo anúncio
+- [x] Criação de funções de conversão de horas em string para minutos numéricos (vice-versa)
 ---
 :keyboard: com :purple_heart: por [Anderson Silva (Andy)](https://www.linkedin.com/in/andssilva/) 😊
