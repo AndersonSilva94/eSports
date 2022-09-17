@@ -6,7 +6,7 @@ import { GameBanner } from "./components/GameBanner";
 import { CreateAdBanner } from "./components/CreateAdBanner";
 import { CreateAdModal } from './components/CreateAdModal';
 
-interface Game {
+export interface Game {
   id: string;
   title: string;
   bannerUrl: string;
