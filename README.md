@@ -33,5 +33,21 @@
 - [x] Construção de rota para retornar o discord pelo ID do anúncio
 - [x] Construção de rota para criar um novo anúncio
 - [x] Criação de funções de conversão de horas em string para minutos numéricos (vice-versa)
+
+## Dia 4 - Power Up :rocket:
+### - Web
+- [x] Instalação de biblioteca para modal (radix-ui/react-dialog)
+- [x] Criando componente GameBanner
+- [x] Criando componente CreateAdBanner
+- [x] Chamar a api para buscar dados de games
+- [x] Criar o modal com formulário
+- [x] Criar formulário
+
+### - Mobile
+- [x] Instalação de dependências (react-navigation/native, react-navigation/native-stack, react-native-screens, phosphor-react-native, react-native-svg)
+- [x] Chamar a api de listar games e buscar os anúncios de um game através de parâmetros de rota
+- [x] Criação de rotas para Home e para página de Game
+- [x] Criação de componentes para renderizar o cabeçalho da página de Game
+- [x] Criação de componentes para o card de anúncios
 ---
 :keyboard: com :purple_heart: por [Anderson Silva (Andy)](https://www.linkedin.com/in/andssilva/) 😊
