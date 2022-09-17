@@ -11,6 +11,7 @@ import { THEME } from '../../theme';
 import logoImg from '../../assets/logo-nlw-esports.png';
 import { Heading } from '../../components/Heading';
 import { DuoCard, DuoCardProps } from '../../components/DuoCard';
+import { DuoMatch } from '../../components/DuoMatch';
 
 export const Game = () => {
   const [duos, setDuos] = useState<DuoCardProps[]>([])
@@ -77,6 +78,8 @@ export const Game = () => {
             </Text>
           )}
         />
+
+        <DuoMatch visible={true} discord="Andy SIlva#4336" />
       </SafeAreaView>
     </Background>
   );

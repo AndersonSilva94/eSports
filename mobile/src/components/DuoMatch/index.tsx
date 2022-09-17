@@ -10,6 +10,8 @@ interface Props extends ModalProps {
 export function DuoMatch({ discord, ...rest }: Props) {
   return (
     <Modal
+      transparent
+      statusBarTranslucent
       {...rest}
     >
       <View style={styles.container}>
