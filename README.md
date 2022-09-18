@@ -49,5 +49,19 @@
 - [x] Criação de rotas para Home e para página de Game
 - [x] Criação de componentes para renderizar o cabeçalho da página de Game
 - [x] Criação de componentes para o card de anúncios
+
+## Dia 5 - Final round :rocket:
+### - Web
+- [x] Instalação de dependências (radix-ui/react-checkbox, radix-ui/react-toggle-group, axios)
+- [x] Criação de componente de formulário
+- [x] Criação de select e renderizando options com base nos dados
+- [x] Criação de toggle para selecionar dias da semana
+- [x] Criação de função para postar um novo anúncio e integrando com o endpoint
+
+### - Mobile
+- [x] Instalação de dependências (expo-clipboard, expo-modules-core, expo-notifications)
+- [x] Criação do componente de modal do discord
+- [x] Criação de lógica para copiar o nome de usuário do discord para área de transferência
+- [x] BÔNUS: criando serviço de notificação de novos anúncios
 ---
 :keyboard: com :purple_heart: por [Anderson Silva (Andy)](https://www.linkedin.com/in/andssilva/) 😊
