@@ -14,7 +14,8 @@ import { DuoCard, DuoCardProps } from '../../components/DuoCard';
 import { DuoMatch } from '../../components/DuoMatch';
 
 export const Game = () => {
-  const [duos, setDuos] = useState<DuoCardProps[]>([])
+  const [duos, setDuos] = useState<DuoCardProps[]>([]);
+  const [duoSelected, setDuoSelect] = useState('a')
 
   const navigation = useNavigation();
   const route = useRoute();
@@ -79,7 +80,7 @@ export const Game = () => {
           )}
         />
 
-        <DuoMatch visible={true} discord="Andy SIlva#4336" />
+        <DuoMatch onClose={() => setDuoSelect('')} visible={duoSelected.length > 0} discord="Andy SIlva#4336" />
       </SafeAreaView>
     </Background>
   );
