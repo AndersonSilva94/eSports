@@ -86,7 +86,7 @@ export const Game = () => {
           )}
         />
 
-        <DuoMatch onClose={() => setDuoSelect('')} visible={duoSelected.length > 0} discord="Andy SIlva#4336" />
+        <DuoMatch onClose={() => setDuoSelect('')} visible={duoSelected.length > 0} discord={duoSelected} />
       </SafeAreaView>
     </Background>
   );
