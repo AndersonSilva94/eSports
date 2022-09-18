@@ -23,5 +23,12 @@ export const styles = StyleSheet.create({
   closeIcon: {
     alignSelf: 'flex-end',
     margin: 16,
+  },
+  label: {
+    color: THEME.COLORS.TEXT,
+    fontSize: THEME.FONT_SIZE.MD,
+    fontFamily: THEME.FONT_FAMILY.SEMI_BOLD,
+    marginTop: 24,
+    marginBottom: 8
   }
 });
