@@ -17,6 +17,7 @@ export function DuoMatch({ discord, onClose, ...rest }: Props) {
     <Modal
       transparent
       statusBarTranslucent
+      animationType="fade"
       {...rest}
     >
       <View style={styles.container}>
